@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darya Pylypenko | Computer Science</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="background-elements"></div>
+    <div class="animated-characters"></div>
+    
+    <header>
+        <a href="#home" class="logo">DP</a>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" aria-label="Toggle theme">
+            <i class="fas fa-moon dark-icon"></i>
+            <i class="fas fa-sun light-icon"></i>
+        </button>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container reveal-text">
+                <div class="hero-content">
+                    <div class="avatar-container">
+                        <div class="avatar">
+                            <img src="avatar.jpeg" alt="Darya Pylypenko" id="avatar-img">
+                        </div>
+                    </div>
+                    <div class="hero-text">
+                        <h1 class="glitch" data-text="Darya Pylypenko">Darya Pylypenko</h1>
+                        <div class="subtitle">
+                            <span class="typing"></span>
+                        </div>
+                        
+                        <!-- About Me content moved to home page -->
+                        <div class="about-content fade-in">
+                            <p class="about-intro">Computer Science major with a Business minor at Florida State University. President of Women in Computer Science (WICS) at FSU, passionate about technology and leadership.</p>
+                            
+                            <div class="home-skills-languages">
+                                <div class="skill-badge">
+                                    <i class="fas fa-award"></i>
+                                    <span>AWS Certified</span>
+                                </div>
+                                <div class="language-badge">
+                                    <span>🇺🇦 Ukrainian</span>
+                                </div>
+                                <div class="language-badge">
+                                    <span>🇮🇹 Italian</span>
+                                </div>
+                                <div class="language-badge">
+                                    <span>🇷🇺 Russian</span>
+                                </div>
+                                <div class="language-badge">
+                                    <span>🇪🇸 Spanish</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="module-container">
+            <section id="education" class="module education">
+                <div class="module-content">
+                    <h2 class="section-title">Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Florida State University</h3>
+                                <p class="timeline-date">2023 - 2026 (Expected)</p>
+                                <p>Bachelor of Science in Computer Science</p>
+                                <p>Minor in Business</p>
+                                <p>President of Women in Computer Science (WICS)</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item fade-in">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Venice High School</h3>
+                                <p class="timeline-date">2019 - 2023</p>
+                                <p>High School Diploma</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="achievements" class="module achievements">
+                <div class="module-content">
+                    <h2 class="section-title">Achievements</h2>
+                    <div class="achievements-grid">
+                        <div class="achievement-card fade-in">
+                            <div class="achievement-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>WICS President</h3>
+                                <p>Elected as President of Women in Computer Science at Florida State University</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card fade-in">
+                            <div class="achievement-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>AWS Certification</h3>
+                                <p>Obtained AWS Cloud Practitioner Certification</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card fade-in">
+                            <div class="achievement-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Multilingual</h3>
+                                <p>Fluent in four languages: Ukrainian, Italian, Russian, and Spanish</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card fade-in">
+                            <div class="achievement-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h3>Academic Excellence</h3>
+                                <p>Dean's List recognition for outstanding academic performance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="module projects">
+                <div class="module-content">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="projects-intro fade-in">Currently working on exciting projects. Check back soon for updates!</p>
+                    
+                    <div class="projects-grid">
+                        <div class="project-card fade-in">
+                            <div class="project-placeholder">
+                                <div class="placeholder-icon"><i class="fas fa-code"></i></div>
+                                <h3>Coming Soon</h3>
+                                <p>Project in development</p>
+                            </div>
+                        </div>
+                        <div class="project-card fade-in">
+                            <div class="project-placeholder">
+                                <div class="placeholder-icon"><i class="fas fa-laptop-code"></i></div>
+                                <h3>Coming Soon</h3>
+                                <p>Project in development</p>
+                            </div>
+                        </div>
+                        <div class="project-card fade-in">
+                            <div class="project-placeholder">
+                                <div class="placeholder-icon"><i class="fas fa-database"></i></div>
+                                <h3>Coming Soon</h3>
+                                <p>Project in development</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content fade-in">
+                    <p>Feel free to reach out to me through any of the platforms below:</p>
+                    <div class="social-links">
+                        <a href="https://github.com/lldaryall" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/darya-pylypenko-24288b207" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="mailto:daryap101@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                        <a href="tel:+19412750410" class="social-link">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 941-275-0410</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="chatbot" id="chatbot">
+        <div class="chatbot-icon" id="chatbot-icon">
+            <div class="chatbot-face">
+                <div class="chatbot-eyes">
+                    <div class="eye left-eye">
+                        <div class="pupil"></div>
+                    </div>
+                    <div class="eye right-eye">
+                        <div class="pupil"></div>
+                    </div>
+                </div>
+                <div class="chatbot-mouth"></div>
+            </div>
+        </div>
+        <div class="chatbot-bubble" id="chatbot-bubble">
+            <p>Hey there! 👋 Got questions?</p>
+        </div>
+        <div class="chatbot-window" id="chatbot-window">
+            <div class="chatbot-header">
+                <h4>Chat with Darya's Assistant</h4>
+                <button class="close-button" id="close-chatbot">&times;</button>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="message bot-message">
+                    <p>Hi there! 👋 I'm Darya's virtual assistant. How can I help you today?</p>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="user-message" placeholder="Type your question here...">
+                <button id="send-message"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="emoji-rain" id="emoji-rain"></div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Darya Pylypenko. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
